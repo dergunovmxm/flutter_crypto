@@ -9,17 +9,19 @@ final darkTheme = ThemeData(
         backgroundColor: Color.fromARGB(255, 31, 31, 31),
         elevation: 0,
         titleTextStyle: TextStyle(
-            color: Colors.white,
-            fontWeight: FontWeight.w700,
-            fontSize: 20)),
+            color: Colors.white, fontWeight: FontWeight.w700, fontSize: 20)),
     listTileTheme: const ListTileThemeData(iconColor: Colors.white54),
     textTheme: TextTheme(
-        bodyMedium: const TextStyle(
-            color: Colors.white,
-            fontSize: 22,
-            fontWeight: FontWeight.w500),
-        labelSmall: TextStyle(
-            color: Colors.white.withOpacity(0.6),
-            fontSize: 14,
-            letterSpacing: .1,
-            fontWeight: FontWeight.w500)));
+      bodyMedium: const TextStyle(
+          color: Colors.white, fontSize: 22, fontWeight: FontWeight.w500),
+      labelSmall: TextStyle(
+          color: Colors.white.withOpacity(0.6),
+          fontSize: 14,
+          letterSpacing: .1,
+          fontWeight: FontWeight.w500),
+      headlineMedium: const TextStyle(
+        color: Colors.white,
+        fontWeight: FontWeight.w500,
+        fontSize: 24,
+      ),
+    ));
